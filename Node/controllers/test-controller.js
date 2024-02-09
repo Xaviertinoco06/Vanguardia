@@ -64,6 +64,7 @@ async function updateLibros(req, res) {
       copias,
       enEstante,
     } = req.body;
+    
     const libro = {
       nombre,
       author,
